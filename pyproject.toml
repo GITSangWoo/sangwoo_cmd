@@ -1,6 +1,6 @@
 [project]
 name = "sangwoo_cmd"
-version = "0.1.0"
+version = "0.1.1"
 description = "Default template for PDM package"
 authors = [
     {name = "GITSangWoo", email = "dogcenta@gmail.com"},
@@ -15,4 +15,4 @@ license = {text = "MIT"}
 distribution = true
 
 [project.scripts]
-sangwoo_cmd = 'sangwoo_cmd.cmd:call' 
+sangwoo-cmd = 'sangwoo_cmd.cmd:call' 
