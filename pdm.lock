@@ -5,4 +5,15 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.2"
-content_hash = "sha256:d3007c65cf6f599df32770f1bb58581b12054c3fa0d167035d674644a49fb97b"
+content_hash = "sha256:df92ff40c94b2e0e82eb2d730317ad80b2eb0ae8ba0caecf33380000d24aefd8"
+
+[[package]]
+name = "sangwoo-lotto"
+version = "0.2.0"
+requires_python = ">=3.9"
+summary = "Default template for PDM package"
+groups = ["default"]
+files = [
+    {file = "sangwoo_lotto-0.2.0-py3-none-any.whl", hash = "sha256:3f805ef2b5445e73ffb5706dafa11d23f31aac17014bbc11d3d4e1034e55c262"},
+    {file = "sangwoo_lotto-0.2.0.tar.gz", hash = "sha256:835e9ce39b6990c99580ce8402045df346b57a71b18edb93da9d0f4ca8063982"},
+]
